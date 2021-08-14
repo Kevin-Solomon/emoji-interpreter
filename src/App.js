@@ -7,7 +7,10 @@ const emojiDictionary = {
   "😁": "Beaming Face with Smiling Eyes",
   "😆": "Grinning Squinting Face",
   "😅": "Grinning Face with Sweat",
-  "🤣": "Rolling on the Floor Laughing"
+  "🤣": "Rolling on the Floor Laughing",
+  "🔥": 'Fire',
+  '❤️': 'Red Heart',
+  '👍': 'Thumbs Up'
 };
 // const [meaning, setMeaning] = useState("");
 const emojis = Object.keys(emojiDictionary);
