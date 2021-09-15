@@ -49,6 +49,41 @@ export default function App() {
           </span>
         ))}
       </div>
+<footer className="footer">
+        <div className="footer-header">contact me</div>
+        <ul className="social-links list-non-bullet ">
+          <li className="list-item-inline">
+            <a
+              className="link"
+              href="https://github.com/Kevin-Solomon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github
+            </a>
+          </li>
+          <li className="list-item-inline">
+            <a
+              className="link"
+              href="https://www.linkedin.com/in/kevin-solomon-8b2b2b1a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin
+            </a>
+          </li>
+          <li className="list-item-inline">
+            <a
+              className="link"
+              href="https://twitter.com/kevinsolomon777"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              twitter
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
